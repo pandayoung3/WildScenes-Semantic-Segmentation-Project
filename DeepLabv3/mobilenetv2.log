@@ -1,0 +1,160 @@
+2024-07-29 16:13:49.648912: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-07-29 16:13:49.662511: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-29 16:13:49.677974: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-29 16:13:49.682614: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-29 16:13:49.694399: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-29 16:13:50.707909: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/root/miniconda3/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/root/miniconda3/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/root/miniconda3/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+torch.Size([32, 3, 256, 256])
+torch.Size([32, 256, 256])
+(array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,
+       17, 18, 19, 20]), array([      4,    1116,   65116,     972,     726,   16191,    1001,
+        273832, 1314742,   12049,    4617,   18155,    4247,    4170,
+          4271,    8499,   11281,  272020,   82939,    1203,       1]))
+Using cuda device
+torch.Size([32, 256, 256])
+torch.Size([32, 21, 256, 256])
+Epoch 1
+-------------------------------
+loss: 3.276747  [   32/ 3130]
+loss: 2.013971  [  352/ 3130]
+loss: 1.716189  [  672/ 3130]
+loss: 1.383279  [  992/ 3130]
+loss: 1.427386  [ 1312/ 3130]
+loss: 1.310241  [ 1632/ 3130]
+loss: 1.215568  [ 1952/ 3130]
+loss: 1.146754  [ 2272/ 3130]
+loss: 1.028609  [ 2592/ 3130]
+loss: 1.062791  [ 2912/ 3130]
+Test Error: 
+ , Avg loss: 1.005431 
+
+Test Error: 
+ , Avg loss: 1.155479 
+
+Epoch 2
+-------------------------------
+loss: 0.995290  [   32/ 3130]
+loss: 1.015580  [  352/ 3130]
+loss: 0.881731  [  672/ 3130]
+loss: 0.863264  [  992/ 3130]
+loss: 0.890228  [ 1312/ 3130]
+loss: 0.850903  [ 1632/ 3130]
+loss: 0.863485  [ 1952/ 3130]
+loss: 0.827288  [ 2272/ 3130]
+loss: 0.838150  [ 2592/ 3130]
+loss: 0.770705  [ 2912/ 3130]
+Test Error: 
+ , Avg loss: 0.753334 
+
+Test Error: 
+ , Avg loss: 0.968120 
+
+Epoch 3
+-------------------------------
+loss: 0.767550  [   32/ 3130]
+loss: 0.748182  [  352/ 3130]
+loss: 0.663258  [  672/ 3130]
+loss: 0.749001  [  992/ 3130]
+loss: 0.739286  [ 1312/ 3130]
+loss: 0.736115  [ 1632/ 3130]
+loss: 0.717318  [ 1952/ 3130]
+loss: 0.715533  [ 2272/ 3130]
+loss: 0.686366  [ 2592/ 3130]
+loss: 0.628720  [ 2912/ 3130]
+Test Error: 
+ , Avg loss: 0.658189 
+
+Test Error: 
+ , Avg loss: 0.864073 
+
+Epoch 4
+-------------------------------
+loss: 0.707674  [   32/ 3130]
+loss: 0.676435  [  352/ 3130]
+loss: 0.617547  [  672/ 3130]
+loss: 0.617213  [  992/ 3130]
+loss: 0.680267  [ 1312/ 3130]
+loss: 0.633198  [ 1632/ 3130]
+loss: 0.591086  [ 1952/ 3130]
+loss: 0.597796  [ 2272/ 3130]
+loss: 0.562748  [ 2592/ 3130]
+loss: 0.587193  [ 2912/ 3130]
+Test Error: 
+ , Avg loss: 0.596678 
+
+Test Error: 
+ , Avg loss: 0.836893 
+
+Epoch 5
+-------------------------------
+loss: 0.597111  [   32/ 3130]
+loss: 0.611529  [  352/ 3130]
+loss: 0.567384  [  672/ 3130]
+loss: 0.592719  [  992/ 3130]
+loss: 0.596948  [ 1312/ 3130]
+loss: 0.571710  [ 1632/ 3130]
+loss: 0.607515  [ 1952/ 3130]
+loss: 0.541894  [ 2272/ 3130]
+loss: 0.609999  [ 2592/ 3130]
+loss: 0.534416  [ 2912/ 3130]
+Test Error: 
+ , Avg loss: 0.550714 
+
+Test Error: 
+ , Avg loss: 0.811885 
+
+Training finished
+              precision    recall  f1-score   support
+
+           1      0.000     0.000     0.000     74523
+           2      0.669     0.756     0.710   7687083
+           3      0.000     0.000     0.000    358549
+           4      0.003     0.003     0.003    407073
+           6      0.000     0.000     0.000    144788
+           7      0.604     0.531     0.565   8461327
+           8      0.838     0.900     0.868  24607842
+           9      0.279     0.085     0.130    380471
+          10      0.000     0.000     0.000    377269
+          14      0.000     0.000     0.000    109107
+          15      0.000     0.000     0.000    390706
+          16      0.174     0.000     0.001    143117
+          17      0.670     0.397     0.499    424680
+          18      0.603     0.629     0.616   6681879
+          19      0.000     0.000     0.000     82909
+
+    accuracy                          0.732  50331323
+   macro avg      0.256     0.220     0.226  50331323
+weighted avg      0.702     0.732     0.715  50331323
+
+Mean IoU (ignoring indices [0, 20]): 0.3452140357006104
+              precision    recall  f1-score   support
+
+           1      0.000     0.000     0.000     74523
+           2      0.669     0.756     0.710   7687083
+           3      0.000     0.000     0.000    358549
+           4      0.003     0.003     0.003    407073
+           6      0.000     0.000     0.000    144788
+           7      0.604     0.531     0.565   8461327
+           8      0.838     0.900     0.868  24607842
+           9      0.279     0.085     0.130    380471
+          10      0.000     0.000     0.000    377269
+          14      0.000     0.000     0.000    109107
+          15      0.000     0.000     0.000    390706
+          16      0.174     0.000     0.001    143117
+          17      0.670     0.397     0.499    424680
+          18      0.603     0.629     0.616   6681879
+          19      0.000     0.000     0.000     82909
+
+    accuracy                          0.732  50331323
+   macro avg      0.256     0.220     0.226  50331323
+weighted avg      0.702     0.732     0.715  50331323
+
+0.3452140357006104
+

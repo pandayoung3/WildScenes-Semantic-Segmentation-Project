@@ -1,0 +1,142 @@
+/root/miniconda3/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/root/miniconda3/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/root/miniconda3/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch 1
+-------------------------------
+loss: 3.361885  [   32/ 3130]
+loss: 2.087032  [  352/ 3130]
+loss: 1.823781  [  672/ 3130]
+loss: 1.519721  [  992/ 3130]
+loss: 1.357283  [ 1312/ 3130]
+loss: 1.211745  [ 1632/ 3130]
+loss: 1.289997  [ 1952/ 3130]
+loss: 1.120354  [ 2272/ 3130]
+loss: 1.097813  [ 2592/ 3130]
+loss: 0.981144  [ 2912/ 3130]
+Test Error: 
+ , Avg loss: 0.990121 
+
+Test Error: 
+ , Avg loss: 1.199642 
+
+Epoch 2
+-------------------------------
+loss: 0.936664  [   32/ 3130]
+loss: 0.907810  [  352/ 3130]
+loss: 0.816580  [  672/ 3130]
+loss: 0.797509  [  992/ 3130]
+loss: 0.854059  [ 1312/ 3130]
+loss: 0.766545  [ 1632/ 3130]
+loss: 0.769202  [ 1952/ 3130]
+loss: 0.711409  [ 2272/ 3130]
+loss: 0.801279  [ 2592/ 3130]
+loss: 0.696481  [ 2912/ 3130]
+Test Error: 
+ , Avg loss: 0.690648 
+
+Test Error: 
+ , Avg loss: 0.969511 
+
+Epoch 3
+-------------------------------
+loss: 0.745583  [   32/ 3130]
+loss: 0.660779  [  352/ 3130]
+loss: 0.651727  [  672/ 3130]
+loss: 0.648099  [  992/ 3130]
+loss: 0.600726  [ 1312/ 3130]
+loss: 0.631029  [ 1632/ 3130]
+loss: 0.557926  [ 1952/ 3130]
+loss: 0.581488  [ 2272/ 3130]
+loss: 0.600108  [ 2592/ 3130]
+loss: 0.594672  [ 2912/ 3130]
+Test Error: 
+ , Avg loss: 0.559223 
+
+Test Error: 
+ , Avg loss: 0.824689 
+
+Epoch 4
+-------------------------------
+loss: 0.548649  [   32/ 3130]
+loss: 0.555115  [  352/ 3130]
+loss: 0.607082  [  672/ 3130]
+loss: 0.585700  [  992/ 3130]
+loss: 0.552006  [ 1312/ 3130]
+loss: 0.501298  [ 1632/ 3130]
+loss: 0.592913  [ 1952/ 3130]
+loss: 0.495941  [ 2272/ 3130]
+loss: 0.556698  [ 2592/ 3130]
+loss: 0.520131  [ 2912/ 3130]
+Test Error: 
+ , Avg loss: 0.519486 
+
+Test Error: 
+ , Avg loss: 0.792563 
+
+Epoch 5
+-------------------------------
+loss: 0.539673  [   32/ 3130]
+loss: 0.544833  [  352/ 3130]
+loss: 0.500748  [  672/ 3130]
+loss: 0.542770  [  992/ 3130]
+loss: 0.525446  [ 1312/ 3130]
+loss: 0.501308  [ 1632/ 3130]
+loss: 0.519499  [ 1952/ 3130]
+loss: 0.518643  [ 2272/ 3130]
+loss: 0.502306  [ 2592/ 3130]
+loss: 0.506822  [ 2912/ 3130]
+Test Error: 
+ , Avg loss: 0.490163 
+
+Test Error: 
+ , Avg loss: 0.792802 
+
+              precision    recall  f1-score   support
+
+           1      0.000     0.000     0.000     74523
+           2      0.813     0.630     0.710   7687083
+           3      0.000     0.000     0.000    358549
+           4      0.000     0.000     0.000    407073
+           6      0.000     0.000     0.000    144788
+           7      0.592     0.618     0.604   8461327
+           8      0.856     0.885     0.870  24607842
+           9      0.357     0.027     0.051    380471
+          10      0.000     0.000     0.000    377269
+          14      0.000     0.000     0.000    109107
+          15      0.989     0.001     0.002    390706
+          16      0.847     0.020     0.038    143117
+          17      0.695     0.416     0.520    424680
+          18      0.548     0.798     0.650   6681879
+          19      0.000     0.000     0.000     82909
+
+    accuracy                          0.743  50331323
+   macro avg      0.380     0.226     0.230  50331323
+weighted avg      0.733     0.743     0.727  50331323
+
+Mean IoU (ignoring indices [0, 20]): 0.34910182647957033
+              precision    recall  f1-score   support
+
+           1      0.000     0.000     0.000     74523
+           2      0.813     0.630     0.710   7687083
+           3      0.000     0.000     0.000    358549
+           4      0.000     0.000     0.000    407073
+           6      0.000     0.000     0.000    144788
+           7      0.592     0.618     0.604   8461327
+           8      0.856     0.885     0.870  24607842
+           9      0.357     0.027     0.051    380471
+          10      0.000     0.000     0.000    377269
+          14      0.000     0.000     0.000    109107
+          15      0.989     0.001     0.002    390706
+          16      0.847     0.020     0.038    143117
+          17      0.695     0.416     0.520    424680
+          18      0.548     0.798     0.650   6681879
+          19      0.000     0.000     0.000     82909
+
+    accuracy                          0.743  50331323
+   macro avg      0.380     0.226     0.230  50331323
+weighted avg      0.733     0.743     0.727  50331323
+
+0.34910182647957033

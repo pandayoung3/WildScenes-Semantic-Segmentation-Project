@@ -1,0 +1,8 @@
+transformers
+numpy
+OS
+torch
+PIL
+torchvision
+matplotlib
+
